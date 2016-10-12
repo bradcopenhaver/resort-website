@@ -27,9 +27,12 @@ h2 {
    border-right-color: forestgreen;
    border-width: 13px;
  }
- h3 {
+ .navbar {
    text-align: center;
    background-color: beige;
+ }
+ .navbar:hover {
+   text-shadow: 4px 4px 2px grey;
  }
 ol {
   font-size: 20px;
@@ -39,7 +42,6 @@ ol {
 ul {
   font-style: normal;
   list-style-type: disc;
-
 }
  p {
    padding: 10px;
@@ -69,4 +71,10 @@ ul {
   position: relative;
   left: 50%;
   margin-left: -500px;
+}
+.contactinfo {
+  background-color: forestgreen;
+  position: absolute;
+  width: 400px;
+  margin-left: 35%;
 }
